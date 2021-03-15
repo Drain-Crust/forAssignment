@@ -2,6 +2,7 @@ package com.example.forassignment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.widget.Button;
@@ -15,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
         WebView mrgsWebView = findViewById(R.id.webviewID);
         mrgsWebView.loadUrl("https://www.mrgs.school.nz/");
+
     }
 }
